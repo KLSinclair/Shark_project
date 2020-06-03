@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shark Project Success Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <script src="{% static 'script.js' %}"></script>
+</head>
+
+<body>
+    <a href="/logout">Logout:</a>
+    <h1 class="main-title">Under The Sea Times!</h1>
+    <section class="row">
+        <article class="story quarter">
+    
+        <h1 class="story-title">Respect The Fin: Don't Eat Shark Fin Soup!</h1>
+        <p class="story-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat non libero sit fuga dignissimos corporis aut, ab laborum, nihil, explicabo molestiae harum porro reprehenderit aliquam consectetur ratione sint dolores unde!</p>
+        <p class="story-text">Voluptatum, voluptate amet quo voluptates, rerum quibusdam beatae libero placeat assumenda omnis nam suscipit similique ut dolores sed hic doloremque, in unde ad laborum debitis nesciunt sint molestiae? Dolor, error?</p>
+        <p class="story-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae dignissimos et quidem nisi sequi itaque aliquam sed? Fugit qui a velit recusandae molestias ratione, saepe doloribus porro nemo nam placeat rem soluta ullam, dolorem necessitatibus, nisi temporibus accusamus! Aliquid consequuntur dignissimos pariatur delectus in expedita animi enim aliquam illum. Dolorem est deserunt exercitationem fugiat? Placeat esse eos commodi nihil deleniti, dolores rem obcaecati repellat voluptatum, quae vitae animi voluptatem quasi culpa possimus necessitatibus libero. Facere quaerat nihil dolorem fugiat illum!</p>
+        </article>
+        <article class="story half">
+        <h1 class="story-title">Hey! Hi! Welcome {{request.session.name}}!</h1>
+        <img class="story-image" src="https://i.ibb.co/GW12JY3/IMG-E6787.jpg/500/300" alt="two sharks" /> 
+        <p class="story-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit suscipit culpa laudantium eum sequi voluptatum laborum. Id corrupti accusantium necessitatibus sit, culpa perspiciatis temporibus sequi deleniti consequuntur blanditiis ex voluptates.</p>
+        </article>
+        <article class="story quarter">
+            <h1 class="story-title">Let's Stop the War on Sharks!</h1>
+            <p class="story-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolor perferendis nemo repellat nostrum sapiente nam atque consequatur esse eos earum, unde nobis minima porro asperiores molestiae totam nesciunt corporis.</p>
+            <p class="story-text">Amet, quisquam? Atque sit possimus reiciendis ullam nihil tenetur dolor corporis dolores aut? Repellat, adipisci error dolores temporibus sit non illo quos excepturi reiciendis aspernatur consectetur cupiditate reprehenderit voluptate iusto?</p>
+            <iframe width="330" height="255" src="https://www.youtube.com/embed/5R6tzSoSAo4"></iframe>
+            <!-- <p class="story-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident nisi porro odit nemo ex nesciunt, magni commodi maiores veritatis, architecto excepturi fugiat expedita sint fuga placeat et numquam. Quae molestiae praesentium ex nihil nesciunt quibusdam ipsum, deserunt, non necessitatibus, distinctio consequatur eligendi totam eius beatae ab amet doloremque laborum impedit magnam reprehenderit placeat. Maxime eaque id odio, error voluptates eligendi distinctio a laborum aliquid ea aperiam qui deleniti sed quos pariatur fugit, sapiente quae illo? Tempore minima tenetur molestias?</p> -->
+        </article>
+        </section>
+        <section class="row">
+            <article class="story quarter">
+                <h1 class="story-title">Girl Swims with Sharks!</h1>
+
+                <source src = https://youtu.be/YjKGUD847oo type = video allow = "loop">
+                <iframe width="330" height="250" src="https://www.youtube.com/embed/-4wVL4WKSBk"></iframe>
+                </article>
+
+                <ul class="nav-list three-quarter">
+                    <li class="nav-item">
+                        <a href="https://www.fisheries.noaa.gov/national/international-affairs/shark-conservation">Shark Conservation:</a>
+                        
+                        <!-- Script to illustrate slideDown() method -->
+                        <script> 
+                        $(document).ready(function() {
+                            $(".geek").click(function() {
+                                $("h1").slideDown(); 
+                            }); 
+                        }); 
+                        </script> 
+                    
+                    
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    <li class="nav-item">
+                        <a href="https://sharkstewards.org/shark-finning/shark-finning-fin-facts/">Shark Finning Facts :</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a href="https://www.pewtrusts.org/en/projects/archived-projects/global-shark-conservation">How You Can Help Sharks:</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.smithsonianmag.com/travel/save-sharks-swimming-them-180952302/">Worth More Alive:</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.cleanwater.org/problem-marine-plastic-pollution">The Evils of Plastic:</a>
+                    </li>
+                        </ul>
+                    </section>
+</body>
+</html>
